@@ -1,0 +1,27 @@
+:root {
+  /* Light mode */
+  --light-switch-shadow: #373d4e;
+  --light-switch-icon: "🌚";
+  --light-switch-text: "dark mode?";
+  --light-text: #222430;
+  --light-bg: #f7f7f7;
+  --light-theme: #d34a97;
+
+  /* Dark mode */
+  --dark-switch-shadow: #fce477;
+  --dark-switch-icon: "🌝";
+  --dark-switch-text: "light mode?";
+  --dark-text: #f7f7f7;
+  --dark-bg: #222430;
+  --dark-theme: #bd93f9;
+
+  /* Default mode */
+  --switch-shadow-color: var(--light-switch-shadow);
+  --switch-icon: var(--light-switch-icon);
+  --switch-text: var(--light-switch-text);
+  --text-color: var(--light-text);
+  --bg-color: var(--light-bg);
+  --theme-color: var(--light-theme);
+}
+
+/* The app colors are purple (#e798ff),  beige (#ffeeeb), green (), white (#ffffff) and orange (#f5694d). The font is Albertan Pro. */
