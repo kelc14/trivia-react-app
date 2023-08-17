@@ -22,6 +22,8 @@
   --text-color: var(--light-text);
   --bg-color: var(--light-bg);
   --theme-color: var(--light-theme);
+
+  --font-family: "Montserrat", sans-serif;
 }
 
 /* The app colors are purple (#e798ff),  beige (#ffeeeb), green (), white (#ffffff) and orange (#f5694d). The font is Albertan Pro. */

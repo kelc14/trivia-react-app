@@ -5,6 +5,10 @@ import "./App.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { Route, Routes } from "react-router-dom";
+
+import Home from "./Home";
+import Questions from "./Questions";
 
 function App() {
   // dark mode toggle:
@@ -26,7 +30,7 @@ function App() {
         toggle mode
       </button>
 
-      <div className="Toggle-mode">
+      {/* <div className="Toggle-mode">
         <input type="checkbox" className="checkbox" id="chk" />
         <label className="label" htmlFor="chk">
           <FontAwesomeIcon icon={faMoon} className="Moon" />
@@ -34,9 +38,12 @@ function App() {
           <i className="fas fa-sun"></i>
           <div className="ball"></div>
         </label>
-      </div>
+      </div> */}
 
-      <h1>Hello, world!</h1>
+      <Routes>
+        <Route path="/general" element={<Questions type="general" />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
